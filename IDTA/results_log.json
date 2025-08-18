@@ -1,0 +1,68 @@
+{
+    "best_hparams": {
+        "lr": 2e-05,
+        "eps": 1e-08,
+        "weight_decay": 0.0
+    },
+    "split_seed": 42,
+    "train_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "val_at_best": {
+        "f1": 0.94,
+        "acc": 0.94,
+        "best_epoch": 3
+    },
+    "test_accuracy": 0.93,
+    "test_precision": 0.9574468085106383,
+    "test_recall": 0.9,
+    "test_f1": 0.9278350515463918,
+    "test_seed": 0,
+    "test_accuracy_mean": 0.9180000000000001,
+    "test_accuracy_std": 0.008366600265340762,
+    "test_precision_mean": 0.9530328354816262,
+    "test_recall_mean": 0.8800000000000001,
+    "test_f1_mean": 0.9147498804439962,
+    "test_f1_std": 0.008615948785649237,
+    "per_seed": [
+        {
+            "seed": 0,
+            "accuracy": 0.93,
+            "f1": 0.9278350515463918,
+            "precision": 0.9574468085106383,
+            "recall": 0.9
+        },
+        {
+            "seed": 1,
+            "accuracy": 0.92,
+            "f1": 0.9166666666666666,
+            "precision": 0.9565217391304348,
+            "recall": 0.88
+        },
+        {
+            "seed": 2,
+            "accuracy": 0.91,
+            "f1": 0.9052631578947369,
+            "precision": 0.9555555555555556,
+            "recall": 0.86
+        },
+        {
+            "seed": 3,
+            "accuracy": 0.91,
+            "f1": 0.9090909090909091,
+            "precision": 0.9183673469387755,
+            "recall": 0.9
+        },
+        {
+            "seed": 4,
+            "accuracy": 0.92,
+            "f1": 0.9148936170212766,
+            "precision": 0.9772727272727273,
+            "recall": 0.86
+        }
+    ]
+}
